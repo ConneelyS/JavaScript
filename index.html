@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Javascript </title>
+		<link rel="stylesheet" href="style.css" />
+		<script>
+		function myAlert(){
+			alert("Good Moaning");
+		}
+		
+		function bouncer(){
+			var age=prompt("What age are you?");
+			if(age>=18){
+				alert("Walk on in!");
+		}
+			else{
+				alert("Get Lost");
+			}
+		}
+		</script>
+	</head>
+	<body onload=myAlert();>
+		<button onclick=myAlert();>Click here</button>
+		<button onclick=bouncer();>Bouncer</button>
+	
+	</body>
+</html>
